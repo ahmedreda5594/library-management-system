@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DELL\\OneDrive\\Documents\\GitHub\\library-management-system\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D985DFDC-B22E-47E9-A592-3BEB7CA6778B}|lap2 ef\\lap2 ef.csproj|c:\\users\\dell\\onedrive\\documents\\github\\library-management-system\\lap2 ef\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D985DFDC-B22E-47E9-A592-3BEB7CA6778B}|lap2 ef\\lap2 ef.csproj|solutionrelative:lap2 ef\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D985DFDC-B22E-47E9-A592-3BEB7CA6778B}|lap2 ef\\lap2 ef.csproj|c:\\users\\dell\\onedrive\\documents\\github\\library-management-system\\lap2 ef\\lap2 ef.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D985DFDC-B22E-47E9-A592-3BEB7CA6778B}|lap2 ef\\lap2 ef.csproj|solutionrelative:lap2 ef\\lap2 ef.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\OneDrive\\Documents\\GitHub\\library-management-system\\lap2 ef\\Program.cs",
+              "RelativeDocumentMoniker": "lap2 ef\\Program.cs",
+              "ToolTip": "C:\\Users\\DELL\\OneDrive\\Documents\\GitHub\\library-management-system\\lap2 ef\\Program.cs",
+              "RelativeToolTip": "lap2 ef\\Program.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAQwEkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T10:10:09.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "lap2 ef.csproj",
+              "DocumentMoniker": "C:\\Users\\DELL\\OneDrive\\Documents\\GitHub\\library-management-system\\lap2 ef\\lap2 ef.csproj",
+              "RelativeDocumentMoniker": "lap2 ef\\lap2 ef.csproj",
+              "ToolTip": "C:\\Users\\DELL\\OneDrive\\Documents\\GitHub\\library-management-system\\lap2 ef\\lap2 ef.csproj",
+              "RelativeToolTip": "lap2 ef\\lap2 ef.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-26T10:10:06.638Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("lap2 ef")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7cf009d474a398d8e3c66a70b5d52748b738ce59")]
 [assembly: System.Reflection.AssemblyProductAttribute("lap2 ef")]
 [assembly: System.Reflection.AssemblyTitleAttribute("lap2 ef")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

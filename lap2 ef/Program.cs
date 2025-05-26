@@ -17,14 +17,14 @@ namespace EFCoreConsoleApp
 
             
              
-                // 1. إضافة كائن واحد (Insert a single object)
+                //. (Insert a single object)
                 Console.WriteLine("\n=== إضافة كائن واحد ===");
                 var author = new Author { Name = "أحمد خالد توفيق" };
                 context.Authors.Add(author);
                 context.SaveChanges();
                 Console.WriteLine($"تم إضافة المؤلف: {author.Name} بنجاح!");
 
-                // 2. إضافة قائمة من الكائنات (Insert a list of objects)
+                // (Insert a list of objects)
                 Console.WriteLine("\n=== إضافة قائمة من الكتب ===");
                 var books = new List<Book>
                 {
@@ -35,7 +35,7 @@ namespace EFCoreConsoleApp
                 context.SaveChanges();
                 Console.WriteLine("تم إضافة الكتب بنجاح!");
 
-                // 3. إضافة باستخدام خصائص التنقل (Insert using navigation properties)
+                // 3.  (Insert using navigation properties)
                 Console.WriteLine("\n=== إضافة باستخدام خصائص التنقل ===");
                 var newAuthor = new Author
                 {
@@ -50,7 +50,7 @@ namespace EFCoreConsoleApp
                 context.SaveChanges();
                 Console.WriteLine("تم إضافة المؤلف والكتب باستخدام خصائص التنقل!");
 
-                // 4. تحديث كائن (Update objects)
+                // 4.  (Update objects)
                 Console.WriteLine("\n=== تحديث كائن ===");
                 var authorToUpdate = context.Authors.FirstOrDefault(a => a.Name == "أحمد خالد توفيق");
                 if (authorToUpdate != null)
@@ -60,7 +60,7 @@ namespace EFCoreConsoleApp
                     Console.WriteLine("تم تحديث اسم المؤلف!");
                 }
 
-                // 5. استخدام EntityState
+                // 5.  EntityState
                 Console.WriteLine("\n=== استخدام EntityState ===");
                 var bookToUpdate = context.Books.FirstOrDefault(b => b.Title == "يوتوبيا");
                 if (bookToUpdate != null)
@@ -71,7 +71,7 @@ namespace EFCoreConsoleApp
                     Console.WriteLine("تم تحديث الكتاب باستخدام EntityState!");
                 }
 
-                // 6. حذف قائمة من الكائنات (Delete a list of objects)
+                // 6.  (Delete a list of objects)
                 Console.WriteLine("\n=== حذف قائمة من الكتب ===");
                 var booksToDelete = context.Books.Where(b => b.AuthorId == author.Id).ToList();
                 context.Books.RemoveRange(booksToDelete);
